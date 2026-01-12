@@ -52,5 +52,6 @@ jobs:
       - name: Run benchmarks
         uses: CodSpeedHQ/action@v4
         with:
+          runner-version: branch:cod-1969-investigate-why-cachegrind-shows-improvement-while-we-show
           run: ./c++/run_benchmarks.sh
           mode: simulation
